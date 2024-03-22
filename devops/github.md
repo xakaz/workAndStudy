@@ -16,8 +16,13 @@
 
 ### Un exemple personnel commenté ❌ / ✔️
 
-Utilisation de github pour créer un projet.
+Utilisation de github pour créer un projet.  
 Gestion du versionning en lignes de commandes.
+
+- **Récupérer un repo**
+    ```
+    git clone https://github.com/OWNER/REPOSITORY.git
+    ```
 
 - **Initialiser un repo**
     ```
@@ -45,12 +50,17 @@ Gestion du versionning en lignes de commandes.
     git push origin nomDeLaBranche
     ```
 
+- **Créer une nouvelle branche**
+    ```
+    git checkout -b nomDeLaBranche
+    ```
+
 
 ### Utilisation dans un projet ❌ / ✔️
 
 [lien github](https://github.com/xakaz/workAndStudy)
 
-Description :
+Description : Carnet de compétences.
 
 ### Utilisation en production si applicable❌ / ✔️
 
@@ -58,16 +68,22 @@ Description :
 
 Description :
 
-### Utilisation en environement professionnel ❌ / ✔️
+### Utilisation en environement professionnel ❌ 
 
-Description :
+Description : Je ne l'utilise pas pendant mon alternance.
 
 ## 🌐 J'utilise des ressources
 
-### Titre
+### Documentation de Git
 
-- lien
-- description
+- [Git](https://git-scm.com/doc)
+- Ce site centralise et explique toutes les utilisations possible avec git.  
+  
+- **Contrôle de code source**
+- Extension VSCode qui permet de visualiser les différentes étapes du projet.  
+On trouve les différents commits, les branches locales et remotes.      
+
+
 
 ## 🚧 Je franchis les obstacles
 
