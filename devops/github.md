@@ -6,8 +6,14 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- l'initialisation d'un projet ✔️
-- travailler avec des branches ✔️
+- l'initialisation d'un projet ✔️  
+Permet de créer un dépôt dans un dossier .git  
+
+- travailler avec des branches ✔️  
+Le travail avec des branches permet de ne pas faire de modifications directement sur la branche principale:  
+    - cela évite les conflits entre les modificatons des différents développeurs.  
+    - cela permet de ne faire crasher la version en production  
+    
 - faire une PR ❌ 
 - utiliser git rebase pour faire des commits propres ❌
 - utiliser les gitHub actions ❌
@@ -76,11 +82,11 @@ Description : Je ne l'utilise pas pendant mon alternance.
 
 ### Documentation de Git
 
-- [Git](https://git-scm.com/doc)
-- Ce site centralise et explique toutes les utilisations possible avec git.  
+- [Git](https://git-scm.com/doc)  
+  Ce site centralise et explique toutes les utilisations possible avec git.  
   
-- **Contrôle de code source**
-- Extension VSCode qui permet de visualiser les différentes étapes du projet.  
+- **Contrôle de code source**  
+Extension VSCode qui permet de visualiser les différentes étapes du projet.  
 On trouve les différents commits, les branches locales et remotes.      
 
 
