@@ -17,26 +17,28 @@
 ### Un exemple personnel commenté ❌ / ✔️
 
 Utilisation de github pour créer un projet.
-Gestion du versionning en lignes de commandes
+Gestion du versionning en lignes de commandes.
 
-*** Initialiser un repo ***
+**Initialiser un repo**
 git init
 
-*** Connecter le repo local avec le repo remote ***
+**Connecter le repo local avec le repo remote**
 git remote add origin https://github.com/OWNER/REPOSITORY.git
 
-*** Ajouter des modifications ***
+**Ajouter des modifications**
 git add *
 git add monFichier.tsx
 
-*** Commit des modifications ***
+**Commit des modifications**
 git commit -m "nom du commit"
 
-*** Commit des modifications ***
+**Envoyer les modifications sur le repo**
+git push origin nomDeLaBranche
+
 
 ### Utilisation dans un projet ❌ / ✔️
 
-[lien github](...)
+[lien github](https://github.com/xakaz/workAndStudy)
 
 Description :
 
@@ -74,4 +76,3 @@ Résolution :
 ## 📽️ J'en fais la démonstration
 
 - J'ai ecrit un [tutoriel](...) ❌ / ✔️
-- J'ai fait une [présentation](...) ❌ / ✔️
