@@ -70,7 +70,7 @@ _Exemple dans le terminal de VSCode :_
 
 ![Logo](./devops/Assets/Github/gitBranch.PNG)  
 
-On peut voir 2 branches:
+2 branches apparaissent:
 - develop
 - master  
 
@@ -105,5 +105,15 @@ Je peux donc faire un commit de mes modifications:
 git commit -m "Example"
 ```
 ![Logo](./devops/Assets/Github/gitcommitexample.PNG)  
+  
+  Il n'y plus qu'à push notre commit sur la branche en cours
+  ```
+  git push --set-upstream origin develop    // La branche n'est pas sur le dépôt distant
+  ou 
+  git push origin develop                   // La branche est déjà sur le dépôt distant 
+  ou 
+  git push                                  // La branche est déjà sur le dépôt distant 
+  ```
+![Logo](./devops/Assets/Github/gitpushupstream.PNG)  
 
 ## Gestion des pull-request
