@@ -7,6 +7,10 @@
 ## 🎓 J'ai compris et je peux expliquer
 
 - la différence entre REST et GraphQL ❌ / ✔️
+    - ***overfecthing*** : en _REST_ on récupère souvent plus de données que celles qu'on va réellement utiliser. En fonction de la quantité envoyée, ça peut avoir un impact négatif sur :  
+        - les performances (temps de chargement, affichage) 
+        - le coût (ressources serveurs, cpu, ram)
+    - ***underfecthing*** : en _REST_ parfois on ne récupère pas assez de données. Du coup, on devra faire plusieurs requêtes pour récupérer ce dont on a besoin et, ça aussi,ça peut avoir un impact négatif sur notre application.
 
 - les besoins auxquels répond GraphQL ❌ / ✔️
 - la définition d'un schéma
