@@ -7,19 +7,28 @@
 ## 🎓 J'ai compris et je peux expliquer
 
 - les verbes HTTP ✔️  
-Les verbes HTTP permettent différentes requêtes liées au **CRUD**, acronyme pour **C**reate **R**ead **U**pdate **D**elete :  
-    - Post => **C**reate  
-    Post permettra la création d'un utilisateur.
-    - Get => **R**ead  
+  Les verbes, ou méthodes, HTTP permettent différentes requêtes associées au **CRUD**, acronyme pour **C**reate **R**ead **U**pdate **D**elete :  
+   - Post => **C**reate  
+   Post permettra la création d'un utilisateur.
+
+    - Get => **R**ead
     Get permettra la récupération d'informations de l'utilisateur.
-    - Put => **U**pdate  
-    Put permettra de mettre à jour des informations de l'utilisateur.
-    - Delete => **D**elete  
-    Delete permettra de supprimer l'utilisateur.  
-    
+
+    - Put || Patch => **U**pdate
+    Put permettra de réécrire toutes les informations de l'utilisateur.
+    Patch permettra de mettre à jour certaines informations de l'utilisateur.  
+
+    - Delete => **D**elete
+    Delete permettra de supprimer l'utilisateur.
 
 - les statuts HTTP ❌ / ✔️
-- les endpoints ❌ / ✔️
+- les endpoints ✔️  
+Ce sont les points d'entrée liés aux verbes/méthodes _http_ :  
+`
+_Exemple : https://www.mon-url.com/api/users_  
+_Cette adresse correspond au endpoint permettant de récupérer les utilisateurs_
+`  
+
 - CORS ❌ / ✔️
 - la nomenclature recommandée pour les routes ❌ / ✔️
 
