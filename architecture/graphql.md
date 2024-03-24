@@ -37,11 +37,25 @@
     > ***Impact Positif*** sur les performances et le coût de l'application.
     ###  
 
-- les besoins auxquels répond GraphQL ❌ / ✔️
-- la définition d'un schéma
-- Query ❌ / ✔️
-- Mutation ❌ / ✔️
+- les besoins auxquels répond GraphQL ❌ / ✔️  
+
+- la définition d'un schéma  
+Le schema est un document qui contient tous les types présents sur l'API. Il est écrit en SDL (schema definition Language )
+
+- Query ✔️  
+    Points d'entrée en lecture de l'API.  
+    ![Logo](./Assets/GraphQL/typeQuery.PNG)  
+    _Ici on répère un tableau de Wilders_  
+    
+- Mutation ✔️  
+    Points d'entrée en écriture (_création, modification, suppression_) de l'API.  
+    ![Logo](./Assets/GraphQL/typeMutation.PNG)  
+    _Ici on supprime un Wilder grâce à son id passé en paramètre de la méthode deleteWilder_  
+    _Le wilder supprimé est retourné par la méthode_  
+
 - Subscription ❌ / ✔️
+    Lle serveur peut initier la communication. C'est utilisé pour faire des applications en temps réel type messagerie.  
+    ![Logo](./Assets/GraphQL/typeSub.PNG)  
 
 ## 💻 J'utilise
 
