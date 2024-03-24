@@ -6,7 +6,18 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- les verbes HTTP ❌ / ✔️
+- les verbes HTTP ✔️  
+Les verbes HTTP permettent différentes requêtes liées au **CRUD**, acronyme pour **C**reate **R**ead **U**pdate **D**elete :  
+    - Post => **C**reate  
+    Post permettra la création d'un utilisateur.
+    - Get => **R**ead  
+    Get permettra la récupération d'informations de l'utilisateur.
+    - Put => **U**pdate  
+    Put permettra de mettre à jour des informations de l'utilisateur.
+    - Delete => **D**elete  
+    Delete permettra de supprimer l'utilisateur.  
+    
+
 - les statuts HTTP ❌ / ✔️
 - les endpoints ❌ / ✔️
 - CORS ❌ / ✔️
