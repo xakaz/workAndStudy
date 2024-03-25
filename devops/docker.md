@@ -12,20 +12,15 @@
 Pour créer une image docker on crée un _Dockerfile_.  
 Le _Dockerfile_ contient tout ce qui permet de faire fonctionner notre programme:  
 ```
-// Environnement pour faire fonctionner notre app 
-FROM node:lts-alpine  
+FROM node:lts-alpine        // Environnement  
 
-// On crée le dossier qui va contenir notre app
-RUN mkdir /app
+RUN mkdir /app              // Création dossier
 
-// On se place dans le dossier 
-WORKDIR /app
+WORKDIR /app                // Racine  
 
-// On copie les fichiers nécessaires au bon fonctionnement de l'app. 
-COPY index.js ./index.js
+COPY index.js ./index.js    // Copie des fichiers 
 
-// Enfin on exécute la commande qui lance notre app
-CMD node index.js
+CMD node index.js           // Exécution de l'application
 ```
 
 - l'éxécution d'un container ❌ / ✔️
