@@ -8,9 +8,9 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- la création d'une image docker ✔️  
-Pour créer une image docker on crée un _Dockerfile_.  
-Le _Dockerfile_ contient tout ce qui permet de faire fonctionner notre programme:  
+- ***La création d'une image docker et l'éxécution d'un container*** ✔️  
+Pour créer une image docker on crée un fichier appelé _Dockerfile_.  
+Ce _Dockerfile_ contient tout ce qui permet de faire fonctionner notre programme:  
     ```
     FROM node:lts-alpine        // Environnement  
 
@@ -30,13 +30,12 @@ Le _Dockerfile_ contient tout ce qui permet de faire fonctionner notre programme
     L'argument -t permet de taguer l'image et de la retrouver plus facilement.  
     Le point à la fin précise que le fichier est dans le répertoire courant.
       
-    On peut enfin lancer notre image:
+    On peut enfin lancer notre image en exécutant le container:
     ```
     docker run nom-du-fichier
     ```  
-    
 
-- l'éxécution d'un container ❌ / ✔️
+
 - l'orchestration de containers avec docker-compose ❌ / ✔️
 
 
