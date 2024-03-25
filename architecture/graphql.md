@@ -1,3 +1,4 @@
+![Logo](./Assets/GraphQL/logo.png) 
 # GraphQL
 
 > ❌ A travailler
