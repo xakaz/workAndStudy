@@ -39,7 +39,7 @@
 
 - les besoins auxquels répond GraphQL ❌ / ✔️  
 
-- la définition d'un schéma  
+- la définition d'un schéma ✔️
 Le schema est un document qui contient tous les types présents sur l'API. Il est écrit en SDL (schema definition Language )
 
 - Query ✔️  
@@ -54,7 +54,7 @@ Le schema est un document qui contient tous les types présents sur l'API. Il es
     _Le wilder supprimé est retourné par la méthode_  
 
 - Subscription ❌ / ✔️
-    Lle serveur peut initier la communication. C'est utilisé pour faire des applications en temps réel type messagerie.  
+    Le serveur peut initier la communication. C'est utilisé pour faire des applications en temps réel type messagerie.  
     ![Logo](./Assets/GraphQL/typeSub.PNG)  
 
 ## 💻 J'utilise
