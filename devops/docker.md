@@ -30,7 +30,7 @@ Ce _Dockerfile_ contient tout ce qui permet de faire fonctionner notre programme
     L'argument -t permet de taguer l'image et de la retrouver plus facilement.  
     Le point à la fin précise que le fichier est dans le répertoire courant.
       
-    On peut enfin lancer notre image en exécutant le container:
+    On peut enfin lancer notre container qui est une instance de l'image que l'on vient de créer:
     ```
     docker run nom-du-fichier
     ```  
