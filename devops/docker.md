@@ -55,4 +55,3 @@ Résolution :
 ## 📽️ J'en fais la démonstration
 
 - J'ai ecrit un [tutoriel](...) ❌ / ✔️
-- J'ai fait une [présentation](...) ❌ / ✔️
